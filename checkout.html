@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Global Header Area</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="produckt.html">Kategori</a></li>
+                <li><a href="produckt.html">Produkter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="shopping-bag">
+            <h2>Shopping Bag</h2>
+            <div class="product-card">
+                <img src="img/img1.jpg" alt="Produkt 1">
+                <h3>Produkt Navn 1</h3>
+                <p>Pris: 199kr</p>
+                <p>Kategori: Kategori</p>
+            </div>
+            <div class="product-card">
+                <img src="img/img1.jpg" alt="Produkt 2">
+                <h3>Produkt Navn 2</h3>
+                <p>Pris: 199kr</p>
+                <p>Kategori: Kategori</p>
+            </div>
+            <div class="product-card">
+                <img src="img/img1.jpg" alt="Produkt 3">
+                <h3>Produkt Navn 2</h3>
+                <p>Pris: 199kr</p>
+                <p>Kategori: Kategori</p>
+            </div>
+        </section>
+        <section id="personal-info">
+            <h2>Personal Informasjon</h2>
+            <form>
+                <label for="first-name">Fornavn:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Etternavn:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="address">Gateadresse:</label>
+                <input type="text" id="address" name="address" required>
+                
+                <label for="postal-code">Postnummer:</label>
+                <input type="text" id="postal-code" name="postal-code" required>
+                
+                <label for="city">By:</label>
+                <input type="text" id="city" name="city" required>
+                
+                <button type="submit">Lagre</button>
+                <button type="button">Avbryt</button>
+            </form>
+        </section>
+        <section id="delivery">
+            <h2>Leverings valg</h2>
+            <form>
+                <label>
+                    <input type="radio" name="delivery" value="express-home" required> Express hjem levering
+                </label>
+                <label>
+                    <input type="radio" name="delivery" value="express-pickup"> Express Pakke til utleveringssted
+                </label>
+                <label>
+                    <input type="radio" name="delivery" value="standard-home"> Standard Hjemmelevering
+                </label>
+            </form>
+        </section>
+        <section id="payment">
+            <h2>Betaling informajon</h2>
+            <form>
+                <label for="card-number">Kortnummerr:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                
+                <label for="expiry-date">Utløpsdato:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required>
+                
+                <label for="cvc">CVC/CVV:</label>
+                <input type="text" id="cvc" name="cvc" required>
+                
+                <p>Å betale inkl. mva: 597kr</p>
+                <button type="submit">Betal</button>
+                
+                <div>
+                    <label>
+                        <input type="checkbox" name="terms" required> Ja takk! Send nyhetsbrev til meg.
+                    </label>
+                    <label>
+                        <input type="checkbox" name="newsletter"> Jeg ønsker å motta tekstmeldinger med tilbud og nyheter.
+                    </label>
+                </div>
+                <p>Du bekrefter herved st opplysningende og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufulstendige opplysninger.</p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section id="logo-info">
+            <div class="footer-logo">
+                <a href="index.html">Logo</a>
+                </div>
+                <p>Pellentesque sagittis eget; nec parturient eleifend dui. Porttitor senectus torquent, vel finibus et parturient. Venenatis tempor natoque tristique purus suscipit habitasse? Ullamcorper vulputate pharetra habitant sociosqu congue commodo.</p>
+            </section>
+            <section id="contact">
+                <h2>Kontakt</h2>
+                <p>Adresse: B R A Veien 4, 1757 Halden</p>
+                <p>Telefon: 69 60 80 00</p>
+                <p>E-post: halden@hiof.no</p>
+                <p>Åpningstider: 8:00-15:00 mandag-fredag</p>
+            </section>
+            <section id="shortcuts">
+                <h2>Snarveier</h2>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#popular-products">Produkter</a></li>
+                    <li><a href="#popular-categories">Kategorier</a></li>
+                    <li><a href="#contact-info">Kontakt oss</a></li>
+                </ul>
+            </section>
+            <section id="social-media">
+                <h2>Sosiale medier</h2>
+                <ul>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                    <li><a href="https://www.pinterest.com">Pinterest</a></li>
+                </ul>
+            </section>
+    </footer>
+</body>
+</html>
+
